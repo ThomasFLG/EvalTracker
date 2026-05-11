@@ -1,3 +1,7 @@
+const filtresDiv =
+    document.getElementById("filtres");
+
+let tagsSelectionnes = [];
 const form = document.getElementById("evaluationForm");
 const liste = document.getElementById("liste");
 

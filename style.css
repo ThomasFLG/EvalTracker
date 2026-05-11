@@ -45,3 +45,25 @@ button {
 .actions button {
     margin-right: 5px;
 }
+
+.tag {
+    display: inline-block;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.filtre-btn {
+    margin: 5px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.filtre-actif {
+    font-weight: bold;
+    border: 2px solid black;
+}

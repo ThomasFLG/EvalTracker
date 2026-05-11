@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mes évaluations</title>
+    <title>Eval Countdown</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Évaluations</h1>
+    <h1>Mes évaluations</h1>
 
     <form id="evaluationForm">
-        <input type="text" id="nom" placeholder="Nom de l'évaluation" required>
 
-        <input type="datetime-local" id="date" required>
+        <input
+            type="text"
+            id="nom"
+            placeholder="Nom"
+            required
+        >
 
-        <button type="submit">Ajouter</button>
+        <input
+            type="datetime-local"
+            id="date"
+            required
+        >
+
+        <input
+            type="color"
+            id="couleur"
+            value="#dfefff"
+        >
+
+        <button type="submit">
+            Ajouter
+        </button>
+
     </form>
 
     <div id="liste"></div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
